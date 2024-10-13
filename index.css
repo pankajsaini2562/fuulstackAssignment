@@ -1,0 +1,398 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.title{
+  width: 343px;
+  height: 24px;
+  top: 39px;
+  left: 59px;
+  justify-content: center;
+  border: 0.9px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+       
+}
+.container{
+  width: 341px;
+  height: 363.11px;
+  top: 82px;
+  left: 59px;
+  border: 1px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border:1px solid black;
+}
+.box1{
+  width: 341px;
+  height: 74.11px;
+  top: 82px;
+  left: 59px;
+  border: 0.9px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor:pointer;
+  position: relative;
+  left:0px;
+  top:0px
+}
+/* Style for expanded box */
+  .expandedFirst {
+    width: 341px;
+    height: 174.11px;
+   
+}
+.rectangleFirst{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 55px;
+  position: absolute;
+  left: 10px;
+  top:10px; 
+}
+.rectanglefirstPart{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:70px;
+  top:75px;
+  gap:5px
+}
+.paraOne{
+  display: flex;
+  gap:50px;
+  position: absolute;
+  top: -20px;
+  left:19px
+}
+.paraTwo{
+  display: flex;
+  gap:5px;
+  justify-content: center;
+  align-items: center;
+}
+.rectangleOne{
+  display: flex;
+  border: 0.9px solid grey;
+  height: 25.31px;
+  width: 65.98px;
+  top:264.05px;
+  left:125.23px;
+  border-radius: 1.81px;
+  justify-content: space-around;
+  align-items: center;
+}
+.dropbtn{
+  background-color: white;
+  border: none;
+  color: #000000;
+}
+.img{
+  height:6.42px;
+  width: 6.42px;
+  top:279.42px;
+  left:183.97px;
+}
+.rectangleTwo{
+  display: flex;
+  border: 0.9px solid grey;
+  height: 25.31px;
+  width: 65.98px;
+  top:264.05px;
+  left:125.23px;
+  border-radius: 1.81px;
+  justify-content: space-around;
+  align-items: center;
+}
+.rectangleThree{
+  display: flex;
+  border: 0.9px solid grey;
+  height: 25.31px;
+  width: 65.98px;
+  top:295.59px;
+  left:125.23px;
+  border-radius: 1.81px;
+  justify-content: space-around;
+  align-items: center;
+}
+.rectangleFour{
+  display: flex;
+  border: 0.9px solid grey;
+  height: 25.31px;
+  width: 65.85px;
+  top:296.59px;
+  left:198.44px;
+  border-radius: 1.81px;
+  justify-content: space-around;
+  align-items: center;
+}
+.paraThree{
+  display: flex;
+  gap:5px;
+
+}
+.firstContent{
+  display: flex;
+  gap:5px
+}
+.rectanglefirstOff{
+  height: 17px;
+  width: 44px;
+  top:104px;
+  left:162px;
+padding: 1px 2px ;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  background-color: #FF6B82;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.rectanglefirstUnit{
+  height: 17px;
+  width: 38px;
+  top:101.88px;
+  left:108.23px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+.rectanglefirststandardPrice{
+  height: 15px;
+  width:84px;
+  top:121.77px;
+  left:108.23px;
+  font-size: 12px;
+  line-height: 14.52px;
+}
+.rectanglefirstText{
+  height: 18px;
+  width: 82px;
+  top:104px;
+  font-weight: 400;
+  line-height: 17.5px;
+  left:293px;
+  color: #000000;
+  font:bolder
+}
+.rectanglefirsttitle{
+  height: 12px;
+  font-size: 11px;
+  size: 5px;
+  top:123px;
+  font-weight: 900;
+  line-height: 12.1px;
+  left:293px;
+  color: #000000;
+  opacity: 30%;
+}
+
+
+
+
+
+
+
+
+
+/* initial Box style */
+.box2{
+  width: 341px;
+  height: 74.11px;
+  top: 176px;
+  left: 59px;
+  border: 0.9px solid gray;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+  position: relative;
+  top:0px;
+  left:0px
+}
+/* Style for expanded box */
+.expandedSecond {
+  width: 341px;
+  height: 174.11px;
+ 
+}
+.rectangleSecond{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 55px;
+  position: absolute;
+  top:5px
+ 
+}
+
+.rectanglesecondText{
+  height: 18px;
+  width: 82px;
+  top:104px;
+  font-weight: 400;
+  line-height: 17.5px;
+  left:293px;
+  color: #000000;
+  font:bolder
+}
+.rectanglesecondTitle{
+  height: 12px;
+  font-size: 11px;
+  size: 5px;
+  top:123px;
+  font-weight: 900;
+  line-height: 12.1px;
+  left:293px;
+  color: #000000;
+  opacity: 30%; 
+}
+
+.secondContent{
+  display: flex;
+  gap:5px
+}
+.secondOff{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative
+  ;
+  
+}
+
+.box3{
+  width: 341px;
+  height: 74.11px;
+  top: 371px;
+  left: 59px;
+  border: 0.9px solid gray;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+}
+.rectangleThird{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 55px;
+ 
+}
+.rectanglethirdText{
+  height: 18px;
+  width: 82px;
+  top:104px;
+  font-weight: 400;
+  line-height: 17.5px;
+  left:293px;
+  color: #000000;
+  font:bolder
+}
+.rectanglethirdtitle{
+  height: 12px;
+  font-size: 11px;
+  size: 5px;
+  top:123px;
+  font-weight: 900;
+  line-height: 12.1px;
+  left:293px;
+  color: #000000;
+  opacity: 30%; 
+}
+.rectanglethirdUnit{
+  height: 17px;
+  width: 38px;
+  top:101.88px;
+  left:108.23px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+.thirdContent{
+  display: flex;
+  gap:5px
+}
+.firstOff{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative
+  ;
+  bottom: 10px;
+  
+}
+
+.frame{
+  height:40px(fixed);
+  width: px;
+  top:497px;
+  left:58px;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 8px;
+  background: #FF6B82;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameText{
+  height:15px;
+  width:68px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #FFFFFF;
+
+}
+.textDelievery{
+  height:17px;
+  width:89px;
+  top:460px;
+  left:58px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #FF6B82;
+}
+.textTotal{
+  width: 124px;
+  height:17px;
+  top:460px;
+  left:274px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+.Text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.secondHalf{
+  width: 341px;
+padding-top: 15px;
+  
+  top: 82px;
+  left: 59px;
+  border: 1px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
